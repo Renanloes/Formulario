@@ -77,10 +77,13 @@ h1{
     font-weight: 900;
 }
 
-.container .caixa-textos .input.preenchido{
-    border: 2px solid green;
-}
 
 .container .caixa-textos .input.vazio{
     border: 2px solid red;
+    transition: ease-in-out 0.5s;
+}
+
+.container .caixa-textos .input.preenchido{
+    border: 2px solid green;
+    transition: ease-in-out 0.5s;
 }
